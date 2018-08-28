@@ -1,3 +1,8 @@
 <?php
-echo "PHP\n";
+require_once 'Pessoa.php';
+require_once 'Academico.php';
+require_once 'Professor.php';
 
+$p = new Pessoa;
+
+$p->comer();
