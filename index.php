@@ -5,4 +5,8 @@ require_once 'Professor.php';
 
 $p = new Pessoa;
 
+$p->setNome("Alex");
+
 $p->comer();
+
+var_dump($p);
